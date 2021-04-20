@@ -1,0 +1,943 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-20T13:12:16.663Z",
+        "before": [
+          {
+            "result": {
+              "duration": 428000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "io.metaWeather.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Sending GET request for location search using city name by using two different positive1",
+        "description": "",
+        "id": "verification-of-retrieving-the-weather-information-for-given-date-and-location;sending-get-request-for-location-search-using-city-name-by-using-two-different-\u003ctest-types\u003e;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user specifies \"api/location/search/\" ,  \"notttingham\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"api/location/search/\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"notttingham\"",
+                  "offset": 45
+                }
+              ],
+              "location": "io.metaWeather.step_definitions.tomorrowsWeather.the_user_specifies(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1426000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user sends GET request",
+            "match": {
+              "location": "io.metaWeather.step_definitions.tomorrowsWeather.the_user_sends_GET_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user verifies the \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 22
+                }
+              ],
+              "location": "io.metaWeather.step_definitions.tomorrowsWeather.the_user_verifies_the(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 586000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user verifies the \"Nottingham\" , \"City\" , \"30720\" , \"52.949219,-1.143920\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nottingham\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"City\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"30720\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"52.949219,-1.143920\"",
+                  "offset": 56
+                }
+              ],
+              "location": "io.metaWeather.step_definitions.tomorrowsWeather.the_user_verifies_the(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MW_001"
+          },
+          {
+            "name": "@wip1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-20T13:12:19.247Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "io.metaWeather.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Sending GET request for location search using city name by using two different positive1:case sensitive",
+        "description": "",
+        "id": "verification-of-retrieving-the-weather-information-for-given-date-and-location;sending-get-request-for-location-search-using-city-name-by-using-two-different-\u003ctest-types\u003e;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user specifies \"api/location/search/\" ,  \"NottinghaM\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"api/location/search/\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"NottinghaM\"",
+                  "offset": 45
+                }
+              ],
+              "location": "io.metaWeather.step_definitions.tomorrowsWeather.the_user_specifies(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 124000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user sends GET request",
+            "match": {
+              "location": "io.metaWeather.step_definitions.tomorrowsWeather.the_user_sends_GET_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user verifies the \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 22
+                }
+              ],
+              "location": "io.metaWeather.step_definitions.tomorrowsWeather.the_user_verifies_the(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 92000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user verifies the \"Nottingham\" , \"City\" , \"30720\" , \"52.949219,-1.143920\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nottingham\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"City\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"30720\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"52.949219,-1.143920\"",
+                  "offset": 56
+                }
+              ],
+              "location": "io.metaWeather.step_definitions.tomorrowsWeather.the_user_verifies_the(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MW_001"
+          },
+          {
+            "name": "@wip1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-20T13:12:19.470Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "io.metaWeather.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Sending GET request for location search using city name by using two different negative1:null",
+        "description": "",
+        "id": "verification-of-retrieving-the-weather-information-for-given-date-and-location;sending-get-request-for-location-search-using-city-name-by-using-two-different-\u003ctest-types\u003e;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user specifies \"api/location/search/\" ,  \"1223\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"api/location/search/\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"1223\"",
+                  "offset": 45
+                }
+              ],
+              "location": "io.metaWeather.step_definitions.tomorrowsWeather.the_user_specifies(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 100000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user sends GET request",
+            "match": {
+              "location": "io.metaWeather.step_definitions.tomorrowsWeather.the_user_sends_GET_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user verifies the \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 22
+                }
+              ],
+              "location": "io.metaWeather.step_definitions.tomorrowsWeather.the_user_verifies_the(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 44000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user verifies the \"\" , \"\" , \"\" , \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 37
+                }
+              ],
+              "location": "io.metaWeather.step_definitions.tomorrowsWeather.the_user_verifies_the(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MW_001"
+          },
+          {
+            "name": "@wip1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-20T13:12:19.626Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "io.metaWeather.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Sending GET request for location search using city name by using two different negative2:invalid",
+        "description": "",
+        "id": "verification-of-retrieving-the-weather-information-for-given-date-and-location;sending-get-request-for-location-search-using-city-name-by-using-two-different-\u003ctest-types\u003e;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user specifies \"api/location/search/\" ,  \"asdffhjhjhj\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"api/location/search/\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"asdffhjhjhj\"",
+                  "offset": 45
+                }
+              ],
+              "location": "io.metaWeather.step_definitions.tomorrowsWeather.the_user_specifies(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 190000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user sends GET request",
+            "match": {
+              "location": "io.metaWeather.step_definitions.tomorrowsWeather.the_user_sends_GET_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user verifies the \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 22
+                }
+              ],
+              "location": "io.metaWeather.step_definitions.tomorrowsWeather.the_user_verifies_the(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 42000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user verifies the \"\" , \"\" , \"\" , \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 37
+                }
+              ],
+              "location": "io.metaWeather.step_definitions.tomorrowsWeather.the_user_verifies_the(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MW_001"
+          },
+          {
+            "name": "@wip1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-20T13:12:19.866Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "io.metaWeather.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Sending GET request for location search using city name by using two different negative3:punctuation characters",
+        "description": "",
+        "id": "verification-of-retrieving-the-weather-information-for-given-date-and-location;sending-get-request-for-location-search-using-city-name-by-using-two-different-\u003ctest-types\u003e;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user specifies \"api/location/search/\" ,  \"..;\u0027/;.;.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"api/location/search/\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"..;\u0027/;.;.\"",
+                  "offset": 45
+                }
+              ],
+              "location": "io.metaWeather.step_definitions.tomorrowsWeather.the_user_specifies(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 146000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user sends GET request",
+            "match": {
+              "location": "io.metaWeather.step_definitions.tomorrowsWeather.the_user_sends_GET_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user verifies the \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 22
+                }
+              ],
+              "location": "io.metaWeather.step_definitions.tomorrowsWeather.the_user_verifies_the(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 37000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user verifies the \"\" , \"\" , \"\" , \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 37
+                }
+              ],
+              "location": "io.metaWeather.step_definitions.tomorrowsWeather.the_user_verifies_the(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MW_001"
+          },
+          {
+            "name": "@wip1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-20T13:12:20.062Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "io.metaWeather.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Verifying the report information",
+        "description": "",
+        "id": "verification-of-retrieving-the-weather-information-for-given-date-and-location;verifying-the-report-information",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the user specifies \"api/location/search/\" ,  \"Nottingham\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"api/location/search/\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Nottingham\"",
+                  "offset": 45
+                }
+              ],
+              "location": "io.metaWeather.step_definitions.tomorrowsWeather.the_user_specifies(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 151000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the user sends GET request",
+            "match": {
+              "location": "io.metaWeather.step_definitions.tomorrowsWeather.the_user_sends_GET_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the user verifies the \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 22
+                }
+              ],
+              "location": "io.metaWeather.step_definitions.tomorrowsWeather.the_user_verifies_the(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the user gets woeid from the body",
+            "match": {
+              "location": "io.metaWeather.step_definitions.tomorrowsWeather.the_user_gets_woeid_from_the_body()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the user gets the tomorrow\u0027s date",
+            "match": {
+              "location": "io.metaWeather.step_definitions.tomorrowsWeather.the_user_gets_the_tomorrow_s_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 195000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the user sends GET request for day location method",
+            "match": {
+              "location": "io.metaWeather.step_definitions.tomorrowsWeather.the_user_sends_GET_request_for_day_location_method()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "the user verifies the \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 22
+                }
+              ],
+              "location": "io.metaWeather.step_definitions.tomorrowsWeather.the_user_verifies_the(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 74000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the user verifies below data",
+            "match": {
+              "location": "io.metaWeather.step_definitions.tomorrowsWeather.the_user_verifies_below_data(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "id"
+                ]
+              },
+              {
+                "cells": [
+                  "weather_state_name"
+                ]
+              },
+              {
+                "cells": [
+                  "wind_direction_compass"
+                ]
+              },
+              {
+                "cells": [
+                  "created"
+                ]
+              },
+              {
+                "cells": [
+                  "applicable_date"
+                ]
+              },
+              {
+                "cells": [
+                  "min_temp"
+                ]
+              },
+              {
+                "cells": [
+                  "max_temp"
+                ]
+              },
+              {
+                "cells": [
+                  "the_temp"
+                ]
+              },
+              {
+                "cells": [
+                  "wind_speed"
+                ]
+              },
+              {
+                "cells": [
+                  "wind_direction"
+                ]
+              },
+              {
+                "cells": [
+                  "air_pressure"
+                ]
+              },
+              {
+                "cells": [
+                  "humidity"
+                ]
+              },
+              {
+                "cells": [
+                  "visibility"
+                ]
+              },
+              {
+                "cells": [
+                  "predictability"
+                ]
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MW_001"
+          },
+          {
+            "name": "@wip2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-20T13:12:20.504Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "io.metaWeather.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 45,
+        "name": "Verifying the report is being received once in every 3 hours",
+        "description": "",
+        "id": "verification-of-retrieving-the-weather-information-for-given-date-and-location;verifying-the-report-is-being-received-once-in-every-3-hours",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "the user specifies \"api/location/search/\" ,  \"Nottingham\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"api/location/search/\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Nottingham\"",
+                  "offset": 45
+                }
+              ],
+              "location": "io.metaWeather.step_definitions.tomorrowsWeather.the_user_specifies(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 104000000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "the user sends GET request",
+            "match": {
+              "location": "io.metaWeather.step_definitions.tomorrowsWeather.the_user_sends_GET_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "the user verifies the \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 22
+                }
+              ],
+              "location": "io.metaWeather.step_definitions.tomorrowsWeather.the_user_verifies_the(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11000000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "the user gets woeid from the body",
+            "match": {
+              "location": "io.metaWeather.step_definitions.tomorrowsWeather.the_user_gets_woeid_from_the_body()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "the user gets the tomorrow\u0027s date",
+            "match": {
+              "location": "io.metaWeather.step_definitions.tomorrowsWeather.the_user_gets_the_tomorrow_s_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 197000000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "the user sends GET request for day location method",
+            "match": {
+              "location": "io.metaWeather.step_definitions.tomorrowsWeather.the_user_sends_GET_request_for_day_location_method()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "the user verifies the \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 22
+                }
+              ],
+              "location": "io.metaWeather.step_definitions.tomorrowsWeather.the_user_verifies_the(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 47000000,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "the user verifies that the report is being taken approximately within 3 hours intervals",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 70
+                }
+              ],
+              "location": "io.metaWeather.step_definitions.tomorrowsWeather.the_user_verifies_that_the_report_is_being_taken_approximately_within_hours_intervals(java.lang.Integer)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MW_001"
+          },
+          {
+            "name": "@wip3"
+          }
+        ]
+      }
+    ],
+    "name": "Verification of retrieving the weather information for given date and location",
+    "description": "",
+    "id": "verification-of-retrieving-the-weather-information-for-given-date-and-location",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/weather.feature",
+    "tags": [
+      {
+        "name": "@MW_001",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
