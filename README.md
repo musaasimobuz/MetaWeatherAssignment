@@ -197,7 +197,7 @@ The scope of my solution includes:
 + Assessing the test cases within the priority and severity levels to decide what to test and not to test
  
 #### • What questions would you ask your Product Owner / what information would you need to know, to be able to test the whole MetaWeather API service comprehensively?
-+ There are some issues with this endpoint ([/api/location/search/?query=cityName”](/api/location/search/?query=cityName)) such as:
++ There are some issues with this endpoint ([/api/location/search/?query=cityName](/api/location/search/?query=cityName)) such as:
 + The response should return 200 or 403 after providing negative test scenarios such as invalid characters, null, or punctuation in the” endpoint. In the current circumstance, it provides 200 and empty body. The alternative way can be getting 404 and providing a message in response body “City name can not be empty, include punctuation or numeric values.”  
 
 + Also, if we put space as a city name, it returns all cities. Is this desired output? If yes, I would ask to specify this issue in the documentation. 
